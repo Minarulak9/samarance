@@ -419,4 +419,14 @@ nav .search_bar .search_icon{
   #banner .swiper-button-next,#banner .swiper-button-prev{
     display: none !important;
   }
+  .left{
+    display: none;
+  }
+  #popup{
+    height: auto;
+  }
+  .right{
+    gap: 20px;
+    padding:2rem ;
+  }
 }
