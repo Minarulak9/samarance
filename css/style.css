@@ -125,6 +125,8 @@ nav .search_bar .search_icon{
   padding: 20px 0;
 }
 #icons{
+  width: 100%;
+  overflow: hidden;
   display: flex ;
   /* padding:20px 0 0px 20px; */
   padding: 10px 0;
@@ -397,5 +399,24 @@ nav .search_bar .search_icon{
   }
   #icons .swiper-wrapper{
     justify-content: initial;
+  }
+  #levels{
+    gap: 10px;
+  }
+  .level{
+    flex: 0 0 92%;
+    height: 120px;
+  }
+  .level::before{
+    background-color: rgba(0, 0, 0, 0.479) !important;
+  }
+  .label{
+    font-size: 1.5rem;
+  }
+  #banner .swiper{
+    height: 120px;
+  }
+  #banner .swiper-button-next,#banner .swiper-button-prev{
+    display: none !important;
   }
 }
