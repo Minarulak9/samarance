@@ -23,7 +23,26 @@ toggle.addEventListener('click', ()=>{
   
 
 const trending = new Swiper('.swiper-container', {
-  loop: true,
+  nextButton: '.swiper-button-next-t',
+  prevButton: '.swiper-button-prev-t',
+  slidesPerView: 3,
+  spaceBetween: 20,
+  breakpoints: {
+      1920: {
+          slidesPerView: 3,
+          spaceBetween: 30
+      },
+      1028: {
+          slidesPerView: 2,
+          spaceBetween: 30
+      },
+      200: {
+          slidesPerView: 1,
+          spaceBetween: 30
+      }
+  }
+});
+const innovation = new Swiper('.swiper-innovation', {
   nextButton: '.swiper-button-next-t',
   prevButton: '.swiper-button-prev-t',
   slidesPerView: 3,
@@ -44,6 +63,8 @@ const trending = new Swiper('.swiper-container', {
       }
   }
 });
+
+
 
 
 // popup

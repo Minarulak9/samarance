@@ -117,12 +117,20 @@ nav .search_bar .search_icon{
 .logo-text{
   display: block;
 }
+.logo-text a:hover{
+  color: rgb(253, 253, 253) !important;
+}
+.logo-text a{
+  text-decoration: none;
+  color: white;
+}
 .logo-text-mob{
   display: none !important;
 }
 #banner{
   background-color: #e7e7e7;
   padding: 20px 0;
+  user-select: none;
 }
 #icons{
   width: 100%;
@@ -347,6 +355,365 @@ nav .search_bar .search_icon{
 #overlay.active{
   display: block;
 }
+#trending .heading{
+  color: orange;
+}
+#trending .heading h2{
+  color: rgb(255, 94, 0);
+  border-bottom: 2px solid rgb(255, 94, 0);
+  padding:0 15px 4px 15px !important;
+  display: inline-block;
+}
+
+#innovation{
+  margin-top: 30px;
+  padding: 40px 20px;
+  /* background-color: rgb(208, 231, 241); */
+  background: linear-gradient(rgb(227, 247, 255),rgb(255, 255, 255));
+}
+.innovation-container{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+#innovation .heading h2{
+  color: rgb(0, 225, 255);
+  border-bottom: 2px solid rgb(0, 255, 234);
+  padding:0 15px 4px 15px !important;
+  display: inline-block;
+}
+#innovation .swiper-slide{
+  text-align: center;
+    font-size: 18px;
+    color: black;
+    display: flex !important;
+    align-items: initial;
+    justify-content: initial;
+    flex-direction: column;
+}
+#innovation .content{
+  background-color: #eef9ff;
+  text-align: left;
+}
+#innovation .title{
+  color: rgb(0, 140, 255);
+  font-size: 1rem !important; 
+}
+#innovation .para{
+  color: rgb(85, 85, 85);
+  font-size: .9rem;
+}
+#innovation .img{
+  width: 100%;
+  height: 280px;
+}
+#innovation .img video{
+  width: 100%;
+  height: 100%;
+}
+#innovation .img img{
+  object-fit: contain;
+}
+
+
+#student_club{
+  margin-top: 30px;
+  padding: 40px 20px;
+  background-color:#f7feff;
+}
+.student_club-container{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+#student_club .heading h2{
+  color: rgb(0, 225, 255);
+  border-bottom: 2px solid rgb(0, 255, 234);
+  padding:0 15px 4px 15px !important;
+  display: inline-block;
+}
+#student_club .programs{
+  display: flex ;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+#student_club .program{
+  flex: 0 0 24%;
+  min-width: 300px;
+  padding: 15px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px -15px;
+  border: 2px solid rgb(147, 216, 228);
+}
+#student_club .program .content h3{
+  font-size: 1rem;
+}
+#student_club .program .img{
+  width: 100%;
+}
+#student_club .program .img img{
+  width: 100%;
+}
+#student_club .program .content {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#student_club .program .join_link a{
+  background-color: rgb(0, 132, 255);
+  /* float: right; */
+  text-decoration: none;
+  padding:8px 20px ;
+  color: rgb(223, 255, 176);
+  border-radius: 8px;
+}
+#earn_money{
+  margin-top: 30px;
+  padding: 40px 20px;
+  background-color: rgb(255, 255, 255);
+}
+.earn_money-container{
+  width: 100%;
+  display: flex;
+}
+.earn_money-container .left{
+  flex: 2;
+  padding: 0 30px;
+}
+.earn_money-container .right img{
+  width: 80%;
+}
+.earn_money-container .right{
+  flex: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.earn_money-container .highlight{
+  color: rgb(0, 132, 255);
+}
+.earn_money-container form{
+  padding: 20px;
+    box-shadow: 5px 5px 20px -18px;
+    background: #f8fdff;
+}
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.footer-section {
+background: #0021b4;
+position: relative;
+}
+.footer-cta {
+/* border-bottom: 1px solid #e0e0e0; */
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #cbd9db;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+text-decoration: none;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #001986;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #e2e2e2;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 25px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #e9e9e9;
+text-decoration: none;
+}
+#levels.school{
+  background-color: #0021b4;
+}
+#banner.competition{
+  width: 90%;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 0;
+}
+#bg-1{
+  background-color: rgb(235, 235, 235);
+}
+#icons.competition{
+  background-color: white;
+}
+#banner.competition #details{
+  padding: 25px 15px;
+  background-color: rgb(242, 252, 255) ;
+  
+}
+#banner.competition #details .head{
+  display: flex;
+  justify-content: space-between;
+}
+
+#idea_submit{
+  display: flex;
+  background-color: white;
+  margin: 15px 0;
+}
+#idea_submit .left,#idea_submit .right{
+  flex: 1;
+}
+#idea_submit .right h3{
+  color: #fac000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.61);
+}
+#idea_submit .right {
+  padding: 20px;
+}
+#idea_submit .right .form{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  padding: 20px;
+}
+#idea_submit .left img{
+  width: 100%;
+}
 /* media */
 @media only screen and (max-width:900px){
   .logo-text{
@@ -419,7 +786,7 @@ nav .search_bar .search_icon{
   #banner .swiper-button-next,#banner .swiper-button-prev{
     display: none !important;
   }
-  .left{
+  #popup .left{
     display: none;
   }
   #popup{
@@ -428,5 +795,14 @@ nav .search_bar .search_icon{
   .right{
     gap: 20px;
     padding:2rem ;
+  }
+  #innovation .img{
+    height: 150px;
+  }
+  #trending .para{
+    font-size: .8rem;
+  }
+  .earn_money-container .right{
+    display: none;
   }
 }
